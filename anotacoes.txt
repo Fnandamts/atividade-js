@@ -1,1 +1,14 @@
-minhas anotações!!!
+JavaScript (JS) é uma linguagem de programação usada para criar páginas da web interativas. É uma das tecnologias principais da World Wide Web. 
+Características 
+É uma linguagem de script, ou seja, de sequências de comandos
+É compatível com a maioria dos navegadores
+É uma linguagem de alto nível, legível por humanos
+É versátil e amigável para iniciantes
+Aplicações
+Permite adicionar interatividade a um site, como menus suspensos, formulários, galerias de fotos, gráficos animados 
+Permite implementar itens complexos em páginas web, como mapas interativos ou gráficos 2D/3D animados 
+Permite criar jogos, aplicativos abrangentes baseados em banco de dados 
+História
+Foi criado em 1995 por Brendan Eich como uma maneira prática de simplificar o processo de validação de formulários 
+O nome original era LiveScript, mas logo seu nome foi mudado para JavaScript 
+O JavaScript é mantido pela European Computer Manufacturer's Association (ECMA).
