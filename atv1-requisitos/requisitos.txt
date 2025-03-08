@@ -1,0 +1,11 @@
+Funcional: O sistema deverá ter o campo de login para alunos um campo para professores e um
+campo para administradores da bilbioteca O sistema deverá ter o campo " cadastro de livro"
+para que os administradores ou funcionários da biblioteca possa cadastrar os livros novos
+O sistema deve encontrar o livro solicitado pelo interessado e mostrar a prateleira que o livro está
+O sistema deve ter o campo "pegue seu livro" onde as pessoas poderão informar qual livro
+pegou e reserva-lo por determinado tempo 
+O sistema deve fazer o cadastro de quem irá pegar o livro contendo as informações pessoais para contato
+O sistema deve ter o controle de quanto tempo faz que a pessoa pegou o livro 
+O sistema deverá ter uma aba onde todos os alunos que ultrapassarem o tempo que está com o livro apareça nessa aba para que seja feito o contato
+para a devolução imediata ou estenda o contrato 
+Não funcional: Quando o administrador logar, ele deverá ter acesso ao cadastro de livros, ao controle de livros reservados
