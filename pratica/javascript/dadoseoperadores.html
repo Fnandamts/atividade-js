@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Tipo de Dados e Operadores</title>
+</head>
+
+<body>
+    <h1>Exemplo de Tipo de Dados e Operadores</h1>
+    <script>
+        //string
+        var nome = "Fernanda";
+        var mensagem = "Ola, mundo!";
+        var texto = "aaaaaaaaaaaaaaa";
+
+        console.log("string: ", nome, mensagem, texto);
+
+        //number 
+        var idade = 21;
+        var altura = 1.67;
+        var peso = 62.5;
+        var numeroNegativo = -10;
+
+        console.log("number: ", idade, altura, peso, numeroNegativo);
+
+        //boolean
+        var verdadeiro = true;
+        var falso = false;
+        var idade = 21;
+        var maiorIdade = idade >= 18;
+        var menorIdade = idade < 18;
+        console.log(maiorIdade, menorIdade);
+        var igualdade = (10 == "10");
+        var idaldadeValorTipo = (10 === "10");
+        console.log(igualdade, idaldadeValorTipo);
+        console.log(typeof idade, typeof igualdade);
+
+        //operadores aritmeticos
+
+        var a = 10;
+        var b = 5;
+        var soma = a + b;
+        var subtracao = a - b;
+        var multiplicacao = a * b;
+        var divisao = a / b;
+
+        console.log(soma, subtracao, multiplicacao, divisao);
+
+        var modulo = a % b;
+        var potencia = a ** b;
+        a++;
+        b--;
+        console.log(a, b, modulo, potencia);
+
+        //operadores de atribuicao combinada
+
+        var num = 5;
+        //num = num + 2;
+        num += 2;
+        console.log(num);
+
+        num -= 2;
+        console.log(num);
+
+        num *= 3;
+        console.log(num);
+
+        num /= 2;
+        console.log(num);
+
+        num %= 4;
+        console.log(num);
+
+        //conversoes de valores
+
+        //string para number
+        var numTexto = "42.32teste";
+        var convInt = parseInt(numTexto);
+        var convFloat = parseFloat(numTexto);
+        var convNumber = Number(numTexto);
+        console.log(convInt, convFloat, convNumber);
+
+        //number para string
+        var numero = 123;
+        var convString = numero.toString();
+        var convString2 = String(numero);
+        var convString3 = "" + numero;
+
+        console.log(convString, convString2, convString3);
+
+        //number para boolean
+        var numPositivo = 42;
+        var numZero = 0;
+        var numNegativo = -42;
+        var boolPositivo = Boolean(numPositivo);
+        var boolZero = Boolean(numZero);
+        var boolNegativo = Boolean(numNegativo);
+        console.log(boolPositivo, boolZero, boolNegativo);
+
+        //string para boolean
+var textoVerdadeiro = "true";
+var textoFalso = "false";
+var textoVazio = "";
+var boolStr1 = Boolean(textoVerdadeiro);
+var boolStr2 = Boolean(textoFalso);
+var boolStr3 = Boolean(textoVazio);
+
+console.log(boolStr1, boolStr2, boolStr3);
+
+//boolean para string
+var verdadeiro = true;
+var falso = false;
+var boolStr1 =  verdadeiro.toString();
+var boolStr2 = falso.toString();
+console.log(boolStr1, boolStr2);
+
+//prompt
+var nomeCompleto = prompt("Qual seu nome completo? ");
+console.log("Ola, ", nomeCompleto, "!");
+console.log(typeof nomeCompleto);
+alert(nomeCompleto);
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
