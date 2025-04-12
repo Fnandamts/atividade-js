@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+/* ARRAYS
+frutas.unshift
+frutas.pop
+frutas.shift
+frutas.splice = posição que vou trabalhar, vou remover, vou inserir (ex: 1,0,"Abacate")
+frutas.slice = Insere uma posição especifica, se eu colocar console.log(Frutas.slice(0,3)) vai imprimir as frutas da posição 1 a 3
+frutas.include = verifica se o elemento está incluso no array (ex: frutas.includes("banana")) vai verificar se tem o itém banana. OBS: É CASE SENSITIVE
+frutas.indexOf = verifica se o elemento está incluso no array e aponta a posição OBS: É CASE SENSITIVE
+
+*/
+
+//OBJETO//
+var pessoa = {
+    "nome": "João",
+    "idade": 25,
+    "altura": 1.75 ,
+    "peso": 70.5 ,
+    "cpf": "123.456.789.00"
+}
+console.log(pessoa);
+console.log(pessoa.nome);
+console.log(pessoa["nome"]);
+
+pessoa.cidade = "Presidente Prudente - SP";
+console.log(pessoa);
+
+delete pessoa.cidade;
+console.log(pessoa)
+
+console.log("nome" in pessoa);
+console.log(Object.values(pessoa).include("João"));
+
+pessoa.idade = 18;
+
+
+
+    </script>
+    
+</body>
+</html>
